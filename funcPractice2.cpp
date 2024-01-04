@@ -16,6 +16,8 @@ int main()
     double tax = 0;
     double total = 0;
 
+    computeTax(subTotal, tax, total);
+
     cout << "Total: " << total << "\n";
     cout << "Tax: " << tax << endl;
 }
