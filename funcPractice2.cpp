@@ -14,7 +14,7 @@ int main()
 {
     double subTotal = 10.0;
     double tax = 0;
-    double total = 0;
+    double total = 0; 
 
     computeTax(subTotal, tax, total);
 
