@@ -7,6 +7,7 @@ using namespace std;
 
 const double SALES_TAX = 0.075;
 
+// function that computes the sales tax on the subtotal
 double computeTax(double subTotal);
 
 int main() 
