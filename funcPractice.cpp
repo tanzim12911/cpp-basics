@@ -14,8 +14,10 @@ int main()
 {
     double subTotal = 10.0;
     double total = subTotal + computeTax(subTotal);
+    double total2 = subTotal + computeTax(subTotal, 0.06);
 
-    cout << "Total: " << total << endl;
+    cout << "Total: " << total "\n";
+    cout << "Total2: " << total << endl;
 }
 
 double computeTax(double subTotal, double taxRate = SALES_TAX) {
