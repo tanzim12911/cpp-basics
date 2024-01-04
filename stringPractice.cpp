@@ -40,4 +40,6 @@ int main(int argc, char* argv[])
 
     cout << (name2 == "Jane") << endl;
 
+    cout << (name2 == name) << endl;
+
 }
