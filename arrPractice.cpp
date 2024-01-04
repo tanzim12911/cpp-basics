@@ -22,6 +22,16 @@ int main()
     printValues(30, allInitialized); // array overflow
 
     cout << endl;
+
+    setArrToOnes(20, score);
+
+    printValues(10, score);
+    printValues(10, myStuff[0]);
+    printValues(10, myStuff[1]);
+    printValues(6, allInitialized);
+    printValues(30, allInitialized); // array overflow
+
+    cout << endl;
 }
 
 void setArrToOnes(int numIteams, int arr[])
