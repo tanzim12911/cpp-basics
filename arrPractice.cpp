@@ -19,6 +19,7 @@ int main()
     printValues(10, myStuff[0]);
     printValues(10, myStuff[1]);
     printValues(6, allInitialized);
+    printValues(30, allInitialized);
 
     cout << endl;
 }
