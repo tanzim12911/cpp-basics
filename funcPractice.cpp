@@ -8,7 +8,7 @@ using namespace std;
 const double SALES_TAX = 0.075;
 
 // function that computes the sales tax on the subtotal
-double computeTax(double subTotal);
+double computeTax(double subTotal, double taxRate);
 
 int main() 
 {
@@ -18,6 +18,6 @@ int main()
     cout << "Total: " << total << endl;
 }
 
-double computeTax(double subTotal) {
-    return subTotal * SALES_TAX;
+double computeTax(double subTotal, double taxRate) {
+    return subTotal * taxRate;
 }
