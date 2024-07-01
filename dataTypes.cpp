@@ -23,8 +23,12 @@ int main() {
 
     // string (objects that represents a sequence of text)
     std::string name = "Bro";
+    std::string day = "Friday";
+    std::string food = "pizza";
+    std::string address = "123 Fake St.";
 
-    std::cout << name;
+    std::cout << "Hello " << name << '\n';
+    std::cout << "You are " << age << " years old.";
 
 
 }
