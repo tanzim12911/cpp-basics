@@ -17,7 +17,9 @@ int main() {
 
     int x = 0;
 
-    std::cout << x;
+    std::cout << x << '\n';
+    
+    std::cout << first::x; // the two-colons is known as the scope-resolution op
 
 
     return 0;
