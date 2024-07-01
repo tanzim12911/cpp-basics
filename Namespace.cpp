@@ -9,6 +9,7 @@ namespace second{
 }
 
 int main() {
+    using namespace second;
 
     // Namespace = provide a solution for preventing name conflicts 
     //             in large projects. Each entity needs a unique name.
@@ -19,8 +20,10 @@ int main() {
 
     std::cout << x << '\n';
     
-    std::cout << first::x; // the two-colons is known as the scope-resolution op
+    std::cout << first::x << '\n'; // the two-colons is known as the scope-resolution op
 
+    
+    std::cout << x;
 
     return 0;
 }
