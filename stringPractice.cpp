@@ -42,4 +42,12 @@ int main(int argc, char* argv[])
 
     cout << (name2 == name) << endl;
 
+
+    cout << "Enter your name: ";
+    //cin >> name2;
+    //cin >> name;
+    getline(cin, name2);
+
+    cout << name2 << endl;
+    //cout << name << endl;
 }
