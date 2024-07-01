@@ -17,6 +17,14 @@ int main() {
     char initial = 'B';
     char dollarSign = '$';
 
-    
+    // boolean (true or false)
+    bool power = true;
+    bool forSale = false;
+
+    // string (objects that represents a sequence of text)
+    std::string name = "Bro";
+
+    std::cout << name;
+
 
 }
