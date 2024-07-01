@@ -2,20 +2,21 @@
 
 int main() {
     /*
-        This is a 
-        multiline code
+        std::cout << "I like pizza!" << std::endl;
+        std::cout <<"It's really good!" << '\n';
     */
 
-   int x; // declaration
-   x = 5;
+    int x; // declaration
+    x = 5;
 
-   int y = 6;
+    int y = 6; // assignment
 
-   std::cout << x;
-   std::cout << y;
+    int sum = x + y;
 
+    std::cout << x << '\n';
+    std::cout << y << '\n';
+    std::cout << sum;
 
-    std::cout << "I like pizza!" << std::endl; // This is comment
-    std::cout <<"It's really good!" << '\n';
+    
     return 0;
 }
