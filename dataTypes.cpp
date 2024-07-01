@@ -15,5 +15,8 @@ int main() {
     // single character
     char grade = 'A';
     char initial = 'B';
+    char dollarSign = '$';
+
     
+
 }
