@@ -1,5 +1,7 @@
 #include <iostream>
 
+//using namespace std; {It is used to exclude std:: from cout}
+
 namespace first{
     int x = 1;
 }
@@ -9,7 +11,8 @@ namespace second{
 }
 
 int main() {
-    using namespace second;
+    
+    //using namespace second;
 
     // Namespace = provide a solution for preventing name conflicts 
     //             in large projects. Each entity needs a unique name.
@@ -21,9 +24,6 @@ int main() {
     std::cout << x << '\n';
     
     std::cout << first::x << '\n'; // the two-colons is known as the scope-resolution op
-
-    
-    std::cout << x;
 
     return 0;
 }
