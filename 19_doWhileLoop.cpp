@@ -7,11 +7,14 @@ int main() {
 
     int number;
 
-    while(number < 0) {
+    do{
         std::cout << "Enter a positive a number: ";
         std::cin >> number;
-    }
+
+    }while(number < 0);
 
     std::cout << "The # is " << number;
+
+    return 0;
 
 }
