@@ -12,9 +12,17 @@ int main() {
 
     std::cout << x << '\n';
 
-    std::cout << c << '\n';
+    std::cout << c << '\n'; // IMPLICIT
+ 
+    std::cout << (char) 100 << '\n'; // EXPLICIT
 
-    std::cout << (char) 100 << '\n';
+    // Example
+
+    int correct = 8;
+    int questions = 10;
+    double score = correct / (double) questions * 100;
+
+    std::cout << score << "%";
 
     return 0;
 }
