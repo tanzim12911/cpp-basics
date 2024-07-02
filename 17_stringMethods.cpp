@@ -1,11 +1,13 @@
 #include <iostream>
 
-// .lenght()
-// .empty()
-// .clear()
-
 int main() {
 
+    // .length()
+    // .empty()
+    // .clear()
+    // .at(index)
+
+    
     std::string name;
 
     std::cout << "Enter your name: ";
@@ -16,15 +18,17 @@ int main() {
     }
 
     else if(name.length() > 12) {
-        std::cout << "Your name can't be over 12 characters";
+        std::cout << "Your name can't be over 12 characters\n";
     }
     else {
-        std::cout << "Welcome " << name;
+        std::cout << "Welcome " << name << '\n';
     }
 
-    name.append("gmail.com");
+    name.append("@gmail.com");
 
     std::cout << "Your username is " << name;
+
+    std::cout << name.at(1) << '\n';
     
 
     return 0;
