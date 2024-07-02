@@ -14,5 +14,7 @@ int main() {
 
     std::cout << c << '\n';
 
+    std::cout << (char) 100 << '\n';
+
     return 0;
 }
