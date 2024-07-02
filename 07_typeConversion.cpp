@@ -8,7 +8,11 @@ int main() {
 
     double x = (int) 3.14;
 
-    std::cout << x;
+    char c = 100;
+
+    std::cout << x << '\n';
+
+    std::cout << c << '\n';
 
     return 0;
 }
