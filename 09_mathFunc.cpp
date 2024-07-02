@@ -12,7 +12,9 @@ int main() {
     // z = pow(2, 4);
     // z = sqrt(9);
     // z = abs(-3);
-    z = round(x);
+    // z = round(x);
+    // z = ceil(x);  round up
+    z = floor(x); // round down
 
     std::cout << z;
 
