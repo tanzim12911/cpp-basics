@@ -15,5 +15,10 @@ int main() {
 
    (number % 2 == 0) ? std::cout << "Even" : std::cout << "Odd";
 
+   bool hungry = true;
+
+   //hungry ? std::cout << "You are hungry" : std::cout << "You are full";
+   std::cout << (hungry ? "You are hungry" : "You are full");
+
     return 0;
 }
