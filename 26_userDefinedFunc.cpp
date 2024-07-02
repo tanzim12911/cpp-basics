@@ -1,14 +1,20 @@
 #include <iostream>
 
-void happyBirthday() {
-    std::cout << "Happy Birthday to you!\n";
-    std::cout << "Happy Birthday to you!\n";
-    std::cout << "Happy Birthday dear you!\n";
-    std::cout << "Happy Birthday to you!\n\n";
-}
+void happyBirthday(std::string name);
 
 int main() {
+    
     // function = a block of reusable code
 
-    happyBirthday();
+    std::string name = "Bro";
+
+    happyBirthday(name);
+}
+
+void happyBirthday(std::string name) {
+    std::cout << "Happy Birthday to " << name << '\n';
+    std::cout << "Happy Birthday to " << name << '\n';
+    std::cout << "Happy Birthday dear " << name << '\n';
+    std::cout << "Happy Birthday to " << name << '\n';
+
 }
