@@ -9,5 +9,7 @@ int main() {
         std::getline(std::cin, name);
     }
 
-    std::cout << "Hello" << name << '\n';
+    std::cout << "Hello " << name << '\n';
+
+    return 0;
 }
