@@ -18,6 +18,7 @@ int main() {
         case 5: std::cout << "You win concert tickets!\n";
                 break;
         
+        return 0;
         
     }
 }

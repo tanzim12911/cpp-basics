@@ -2,7 +2,7 @@
 
 int main() {
     
-    // pseudo-random = NOT truly random (but close)
+    // pseudo-random = NOT truly random (but close)     {May need to use [#include <ctime>]}
     // intialize random number generator [srand(time(NULL));]
     // rand() % last_num + first_num;
 
