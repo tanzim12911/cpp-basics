@@ -2,6 +2,7 @@
 
 // .lenght()
 // .empty()
+// .clear()
 
 int main() {
 
@@ -20,6 +21,10 @@ int main() {
     else {
         std::cout << "Welcome " << name;
     }
+
+    name.append("gmail.com");
+
+    std::cout << "Your username is " << name;
     
 
     return 0;
