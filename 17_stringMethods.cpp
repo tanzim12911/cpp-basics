@@ -25,10 +25,14 @@ int main() {
     }
 
     name.append("@gmail.com");
-
-    std::cout << "Your username is " << name;
+    std::cout << "Your username is " << name << '\n';
 
     std::cout << name.at(1) << '\n';
+
+    name.insert(0, "#");
+    std::cout << name << '\n';
+
+
     
 
     return 0;
