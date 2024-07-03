@@ -1,6 +1,8 @@
 #include <iostream>
 
-void printNum(int myNum);
+int myNum = 3;
+
+void printNum();
 
 int main() {
 
@@ -10,8 +12,10 @@ int main() {
     int myNum = 1;
 
     std::cout << myNum;
+
+    printNum();
 }
 
-void printNum(int myNum) {
+void printNum() {
     std::cout << myNum;
 }
