@@ -52,6 +52,12 @@ void showBalance(double balance) {
     std::cout << "Your balance is $" << std::setprecision(2) << std::fixed << balance << '\n';
 }
 double deposit() {
+
+    double amount = 0;
+
+    std::cout << "Enter amount to be deposited: ";
+    std::cin >> amount;
+    
     return 0;
 }
 double withdraw(double balance){
