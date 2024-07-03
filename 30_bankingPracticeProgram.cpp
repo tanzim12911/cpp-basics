@@ -53,6 +53,7 @@ int main()
 void showBalance(double balance) {
     std::cout << "Your balance is $" << std::setprecision(2) << std::fixed << balance << '\n';
 }
+
 double deposit() {
 
     double amount;
@@ -67,6 +68,23 @@ double deposit() {
         return 0;
     
 }
+
 double withdraw(double balance){
-    return 0;
+    double amount;
+
+    std::cout << "Enter amount to be withdrawn: ";
+    std::cin >> amount;
+
+    if(amount > balance) {
+        std::cout << "Insufficient fund \n";
+        return 0;
+    }
+    else if(amount < 0) {
+        std::cout << "That's not a valid amount \n";
+        return 0;
+    }
+    else {
+        return amount;
+    }
+
 }
