@@ -36,7 +36,7 @@ int main()
             showBalance(balance);
             break;
         case 3:
-            balance -= withdraw(0);
+            balance -= withdraw(balance);
             showBalance(balance);
             break;
         case 4:
