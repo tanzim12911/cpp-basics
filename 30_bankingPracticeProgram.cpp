@@ -26,6 +26,9 @@ int main()
 
         std::cin >> choice;
 
+        std::cin.clear();   // clear input buffer
+        fflush(stdin);
+
         switch (choice)
         {
         case 1:
