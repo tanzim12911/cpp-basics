@@ -60,7 +60,7 @@ double deposit() {
     std::cout << "Enter amount to be deposited: ";
     std::cin >> amount;
 
-    return 0;
+    return amount;
 }
 double withdraw(double balance){
     return 0;
