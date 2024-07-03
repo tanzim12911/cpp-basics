@@ -33,9 +33,11 @@ int main()
             break;
         case 2:
             balance += deposit();
+            showBalance(balance);
             break;
         case 3:
             balance -= withdraw(0);
+            showBalance(balance);
             break;
         case 4:
             std::cout << "Thanks for visiting\n";
@@ -57,7 +59,7 @@ double deposit() {
 
     std::cout << "Enter amount to be deposited: ";
     std::cin >> amount;
-    
+
     return 0;
 }
 double withdraw(double balance){
