@@ -55,7 +55,7 @@ void showBalance(double balance) {
 }
 double deposit() {
 
-    double amount = 0;
+    double amount;
 
     std::cout << "Enter amount to be deposited: ";
     std::cin >> amount;
