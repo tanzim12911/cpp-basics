@@ -20,5 +20,15 @@ int main() {
     std::cout << "address: " << pNum << '\n';
     std::cout << "value: " << *pNum << '\n';
 
+    delete pNum;
+
+    char *pGrades = nullptr;
+    int size;
+
+    std::cout << "How many grades to enter in?: ";
+    std::cin >> size;
+
+    pGrades = new char[5];
+
     return 0;
 }
