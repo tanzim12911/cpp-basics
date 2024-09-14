@@ -4,7 +4,10 @@ class Pizza{
     public:
         std::string topping1;
         std::string topping2;
-        
+
+        Pizza() {
+            // if a empty obj is created need to add this
+        }
         Pizza(std::string topping1) {
             this->topping1 = topping1;
         }
