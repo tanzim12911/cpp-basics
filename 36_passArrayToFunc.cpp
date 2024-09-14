@@ -17,6 +17,8 @@ int main() {
 
 }
 
+// actually array are not passed, the array's address (pointer) is passed
+
 double getTotal(double prices[], int size) {    // when a function receives an array it decays into a pointer
     double total = 0;                           // and function no longer knows what the size of the array is
 
