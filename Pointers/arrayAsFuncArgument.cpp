@@ -1,8 +1,8 @@
 #include <iostream>
 
-int sumOfElements(int A[]){
+int sumOfElements(int A[], int size){ // int sumOfElements(int* A)
     int sum = 0;
-    int size = sizeof(A) / sizeof(A[0]);
+    
     for (int i = 0; i < size; i++)
     {
         sum += A[i];
@@ -13,7 +13,8 @@ int sumOfElements(int A[]){
 int main() {
 
     int A[] = {1, 2, 3, 4, 5};
-    int total = sumOfElements(A);
-
+    int size = sizeof(A) / sizeof(A[0]);
+    int total = sumOfElements(A, size);
+    
     std::cout << "Sum of elements = " << total;
 }
